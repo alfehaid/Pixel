@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pixel Art Maker!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id = "container">
+    <div class = "panel">
+      <h1 class ="Title">Pixel Art Maker By Haitham</h1>
+
+      <form id="sizePicker">
+        <span class = "label">Rows: </span>
+        <input type="number" id="height" name="height" value="10">
+        <span class = "label">Columns: </span>
+        <input type="number" id="width" name="width" value="10">
+        <span class = "label">Color: </span>
+        <input type="color" id="colorPicker" value="blue">
+        <input type="submit">
+      </form>
+
+    </div>
+    <table id="pcanvas"></table>
+  </div>
+
+  <script async src="designs.js"></script>
+</body>
+</html>
